@@ -37,7 +37,7 @@ body {
   background-color: #EBFFFC;
   padding: 10px 25px;
   height: 60px;
-  border-radius: 30px;
+  border-radius: 50px;
   flex: 1;
   margin-right: 16px;
   font-size: 18px;
@@ -47,15 +47,20 @@ body {
   outline: 0;
   background-color: #EBFFFC;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 75px;
+  height: 75px;
   cursor: pointer;
 }
 .search button i {
   width: 16px;
+  font-size: 1.5rem;
+  position: relative;
+  left: -4px;
 }
+
 .weather {
   margin-top: 50px;
+  display: none;
 }
 .weather-icon {
   width: 100px;
@@ -91,7 +96,13 @@ body {
   width: 60px;
   margin-right: 10px;
 }
-
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1rem;
+  margin-top: 20px;
+  display: none;
+}
 
 
 
