@@ -54,11 +54,49 @@ body {
 .search button i {
   width: 16px;
 }
-
+.weather img {
+  margin-top: 40px;
+}
 .weather-icon {
   width: 100px;
-  margin-top: 30px;
 }
+.weather h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  margin-top: 30px !important;
+}
+
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+.col p {
+  padding-left: 20px;
+}
+.col img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+
+
+
+
+
 
 
 
